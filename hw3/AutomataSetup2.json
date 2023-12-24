@@ -1,0 +1,51 @@
+{
+  "States": [
+    false,
+    false,
+    false, 
+    true
+  ],
+
+  "Transitions": [
+    {
+      "from": 0,
+      "to": 1,
+      "trigger": 1
+    },
+    {
+      "from": 0,
+      "to": 0,
+      "trigger": 0
+    },
+    {
+      "from": 1,
+      "to": 1,
+      "trigger": 1
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "trigger": 0
+    },
+    {
+      "from": 2,
+      "to": 0,
+      "trigger": 0
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "trigger": 1
+    },
+    {
+      "from": 3,
+      "to": 2,
+      "trigger": 0
+    },
+    {
+      "from": 3,
+      "to": 1,
+      "trigger": 1
+    }
+  ]
+}
